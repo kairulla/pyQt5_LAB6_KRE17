@@ -1,4 +1,5 @@
 import turtle
+import threading
 
 turtle.speed(200)
 turtle.fillcolor("#E50000")
@@ -78,6 +79,23 @@ turtle.left(320) # 320
 turtle.circle(40, 120)  # 40 120 левая сторона
 
 turtle.end_fill()
+
+
+def drawMyName(X=-320):
+    turtle.goto(X, -50.00)  # -320.00  -50.00  >>>>>>>  -20.00  -50.00
+    turtle.color('#0000FF')
+    turtle.write("Қайрулла Руслан Ербулатұлы (ВТиП-402)", move=True, align='left', font=('Arial', 14, 'bold'))
+    # time.sleep(1)
+    turtle.undo()
+
+def tudaSuda():
+    while(True):
+        for i in range(-320, -20, 20):
+            drawMyName(i)
+        for i in range(-20, -320, -20):
+            drawMyName(i)
+
+threading.Thread(target=tudaSuda(), args=()).start()
 
 
 

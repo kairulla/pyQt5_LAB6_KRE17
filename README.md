@@ -1,3 +1,1 @@
-<img src="_MY_PICTURES/Apple.png" width=50% align="middle"><img src="_MY_PICTURES/2022-09-16_235958.png" width=50% align="middle">
-<img src="_MY_PICTURES/Maket.png" width=50% align="middle"><img src="_MY_PICTURES/TASK_6.png" width=50% align="top">
-<img src="_MY_PICTURES/2022-09-16_235908.png" width=50% align="middle">
+<img src="_MY_PICTURES/Animation.gif" width=50% align="middle"><img src="_MY_PICTURES/2022-09-16_235958.png" width=50% align="top"><img src="_MY_PICTURES/Apple.png" width=26% align="top"><img src="_MY_PICTURES/Maket.png" width=21% align="top"><img src="_MY_PICTURES/TASK_6.png" width=52% align="top">
